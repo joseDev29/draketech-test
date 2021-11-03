@@ -28,7 +28,7 @@ export const useLogin = () => {
   const onLogin = async (ev) => {
     ev.preventDefault();
 
-    const res = await axios.post("http://localhost:4567/api/login", {
+    const res = await axios.post("https://mini-login.vercel.app/api/login", {
       email,
       password,
     });
