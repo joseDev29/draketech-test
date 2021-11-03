@@ -1,0 +1,71 @@
+.todos__subcontainer {
+  padding: 8px;
+}
+
+.todos__title {
+  margin-top: 32px;
+  font-size: 4.8rem;
+  font-weight: 800;
+  text-align: center;
+  color: var(--primary);
+}
+
+.todos__username > span {
+  display: inline-block;
+  padding: 16px;
+  margin-top: 32px;
+  border-radius: 8px;
+  font-size: 1.6rem;
+  font-weight: 800;
+  background-color: rgba(132, 89, 227, 0.3);
+  color: var(--primary);
+}
+
+.todos__add-btn {
+  margin-top: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.todos__add-btn > span {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-image: url("../../assets/icons/add_icon.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.todos__add-btn > p {
+  margin-left: 8px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.todos__add-btn:hover {
+  cursor: pointer;
+}
+
+.todos__color-guide {
+  margin-top: 24px;
+}
+
+.todos__color-guide > div {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+}
+
+.todos__color-guide > div > span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+  border-radius: 100%;
+}
+
+.todos__color-guide > div > p {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
